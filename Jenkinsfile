@@ -12,7 +12,8 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 sh '''
-                export PATH=/opt/homebrew/bin:$PATH
+                export PATH=/opt/homebrew/bin:/Applications/Docker.app/Contents/Resources/bin:$PATH
+
                 docker --version
                 docker build -t website-image .
                 '''
