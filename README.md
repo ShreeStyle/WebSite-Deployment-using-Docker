@@ -259,7 +259,7 @@ Through this project, I learned:
 
 ---
 
-# 👩‍💻 Author
+# Author
 
 **Dhanashree Trambadia**
 
